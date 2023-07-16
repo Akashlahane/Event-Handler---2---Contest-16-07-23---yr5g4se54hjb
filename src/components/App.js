@@ -3,8 +3,8 @@ import '../styles/App.css';
 const App = () => {
 
   const handleClick = (event) =>{
-      const z= event.currentTarget.id;
-      let str = `Button id is:-{z}`;
+      const z= event.target.id;
+      let str = `Button id is:-${z}`;
       console.log(z);
 
   }
