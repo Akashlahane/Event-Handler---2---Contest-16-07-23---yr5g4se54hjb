@@ -3,7 +3,7 @@ import '../styles/App.css';
 const App = () => {
 
   const handleClick = (event) =>{
-      const z= event.target.getAttribute("id");
+      const z= event.currentTarget.id;
       let str = `Button id is:-{z}`;
       console.log(z);
 
