@@ -5,7 +5,7 @@ const App = () => {
   const handleClick = (event) =>{
       const z= event.target.id;
       let str = `Button id is:-${z}`;
-      console.log(z);
+      console.log(str);
 
   }
 
